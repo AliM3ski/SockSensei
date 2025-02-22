@@ -60,6 +60,14 @@
             android:textColor="#808080"
             android:textSize="16sp" />
 
-        <!-- Remove the second ImageView (imageView2) since the gradient is now the background -->
+        <!-- Reset Everything Button -->
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/Retry"
+            android:backgroundTint="#FF0010"/>
+
     </LinearLayout>
 </FrameLayout>
