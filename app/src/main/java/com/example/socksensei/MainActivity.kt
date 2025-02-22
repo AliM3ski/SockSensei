@@ -9,8 +9,13 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.socksensei.databinding.ActivityMainBinding
+import android.widget.Button;
+import android.content.Intent
 
-class MainActivity : AppCompatActivity() {
+
+public class MainActivity : AppCompatActivity() {
+
+    lateinit var button1: Button
 
     private lateinit var binding: ActivityMainBinding
 
@@ -19,6 +24,14 @@ class MainActivity : AppCompatActivity() {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        button1=findViewById(R.id.submitVentButton)
+
+        button1.setOnClickListener {
+            val intent = Intent(this, SockDisplay::class.java)
+            startActivity(intent)
+        }
+
 
 
     }
