@@ -5,5 +5,7 @@
     <string name="title_notifications">Notifications</string>
     <string name="mind_prompt">What Has Been On Your Mind Recently?</string>
     <string name="text_Hint">Vent Your Thoughts Here....</string>
-
+    <string name="Sock_Name">Sleepy Joe</string>
+    <string name="Achievement">Congrats! You have Unlocked A New Sock</string>
+    <string name="Sock_description">Here lies the greatest of the great, SLEEPPPYYY JOEEEEEE</string>
 </resources>
