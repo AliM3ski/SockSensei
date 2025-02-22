@@ -10,7 +10,11 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.socksensei.databinding.ActivityMainBinding
 import android.widget.Button;
-import android.content.Intent
+import android.content.Intent;
+import android.widget.TextView;
+import androidx.lifecycle.lifecycleScope;
+import kotlinx.coroutines.delay;
+import kotlinx.coroutines.launch;
 
 
 public class MainActivity : AppCompatActivity() {
@@ -25,14 +29,25 @@ public class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        button1=findViewById(R.id.submitVentButton)
+        button1 = findViewById(R.id.submitVentButton)
+        val myTextView = findViewById<TextView>(R.id.questionText)
 
+        // Apply the typewriter effect
+         fun TextView.typewriterEffect(textView: TextView, text: String, intervalMs: Long) {
+            textView.text = ""
+            lifecycleScope.launch {
+                text.forEach { char ->
+                    delay(intervalMs)
+                    textView.append(char.toString())
+                }
+            }
+
+
+        }
         button1.setOnClickListener {
             val intent = Intent(this, SockDisplay::class.java)
             startActivity(intent)
         }
-
-
-
+        myTextView.typewriterEffect("What Has Been On Your Mind Recently?", 80L, this)
     }
 }
