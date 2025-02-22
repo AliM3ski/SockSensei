@@ -1,47 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
-    android:padding="16dp">
+    android:layout_height="match_parent">
 
-    <!-- Question Prompt -->
-
-    <!-- TextBox for user input -->
-
-    <!-- Button to submit the vent -->
-
-    <TextView
-        android:id="@+id/questionText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:fontFamily="@font/outfitbold"
-        android:text="@string/mind_prompt"
-        android:textColor="#000000"
-        android:textSize="21sp"
-        android:textStyle="bold" />
-
-    <EditText
-        android:id="@+id/userVentTextBox"
+    <!-- Gradient Background -->
+    <View
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginBottom="16dp"
-        android:background="@drawable/edit_text_background"
-        android:gravity="top"
-        android:hint="@string/text_Hint"
-        android:inputType="textMultiLine"
-        android:padding="10dp"
-        android:textSize="16sp" />
+        android:layout_height="match_parent"
+        android:background="@drawable/lightblueg"
+        android:backgroundTint="@color/cardview_shadow_start_color"/>
 
-    <Button
-        android:id="@+id/submitVentButton"
+    <!-- Your Main Content -->
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/colorPrimary"
-        android:fontFamily="@font/outfitmedium"
-        android:text="Submit"
-        android:textColor="#ffffff" />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp"
+        >
 
-</LinearLayout>
+
+        <!-- Question Prompt -->
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/outfitbold"
+            android:text="@string/mind_prompt"
+            android:textColor="#000000"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+        <!-- TextBox for user input -->
+        <EditText
+            android:id="@+id/userVentTextBox"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edit_text_background"
+            android:gravity="top"
+            android:hint="@string/text_Hint"
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:textSize="16sp" />
+
+        <!-- Button to submit the vent -->
+        <Button
+            android:id="@+id/submitVentButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:fontFamily="@font/outfitmedium"
+            android:text="Submit"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+</FrameLayout>
