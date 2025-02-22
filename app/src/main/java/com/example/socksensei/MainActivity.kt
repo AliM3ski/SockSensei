@@ -31,7 +31,6 @@ public class MainActivity : AppCompatActivity() {
 
         button1 = findViewById(R.id.submitVentButton)
         val myTextView = findViewById<TextView>(R.id.questionText)
-
         // Apply the typewriter effect
          fun TextView.typewriterEffect(textView: TextView, text: String, intervalMs: Long) {
             textView.text = ""
