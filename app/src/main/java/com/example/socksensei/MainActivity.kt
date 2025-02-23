@@ -1,6 +1,8 @@
 package com.example.socksensei
 
+import com.example.socksensei.R
 import android.content.Intent
+import android.media.MediaPlayer
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
@@ -47,6 +49,10 @@ public class MainActivity : AppCompatActivity() {
             }
 
             startActivity(intent)
+            val music: MediaPlayer = MediaPlayer.create(this@MainActivity, R.raw.music)
+            music.start()
+
+
         }
 
 
