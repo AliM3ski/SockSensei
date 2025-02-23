@@ -15,7 +15,7 @@ class WickedWarp : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.wicked_warp)
+        setContentView(R.layout.activity_wicked_warp)
 
         buttonWarpExit = findViewById(R.id.resetButton)
 

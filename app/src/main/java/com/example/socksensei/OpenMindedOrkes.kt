@@ -15,7 +15,7 @@ class OpenMindedOrkes : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.orkes)
+        setContentView(R.layout.activity_orkes)
 
         buttonOrkesExit = findViewById(R.id.resetButton)
 
