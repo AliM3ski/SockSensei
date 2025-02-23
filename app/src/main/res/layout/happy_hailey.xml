@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/lightblueg"
-        android:backgroundTint="@color/chill_guy" />
+        android:backgroundTint="@color/Happy_hil"/>
 
     <!-- Your Main Content -->
     <LinearLayout
@@ -26,7 +26,7 @@
             android:layout_marginBottom="20dp"
             android:gravity="center"
             android:text="@string/Achievement"
-            android:textColor="#F2E5E5"
+            android:textColor="#000000"
             android:textSize="19sp"
             android:textStyle="bold" />
 
@@ -36,8 +36,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:text="Chill Guy Chad"
-            android:textColor="#F2E5E5"
+            android:text="Happy Hailey"
+            android:textColor="#000000"
             android:textSize="40sp"
             android:textStyle="bold" />
 
@@ -50,7 +50,7 @@
             android:layout_width="314dp"
             android:layout_height="290dp"
             android:gravity="center"
-            app:srcCompat="@drawable/chillg" />
+            app:srcCompat="@drawable/hh" />
 
         <TextView
             android:id="@+id/sockDescriptionTextView"
@@ -68,7 +68,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:backgroundTint="#523737"
+            android:backgroundTint="#E29595"
             android:text="@string/Retry" />
 
     </LinearLayout>
