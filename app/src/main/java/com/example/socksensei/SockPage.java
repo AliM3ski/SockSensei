@@ -1,6 +1,7 @@
 package com.example.socksensei;
 
-public class SockPage {
+public class
+SockPage {
 
     private String SockName;
     private String SockDescription;

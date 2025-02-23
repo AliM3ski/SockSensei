@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/lightblueg"
-        android:backgroundTint="@color/cardview_shadow_start_color" />
+        android:backgroundTint="@color/chill_guy" />
 
     <!-- Your Main Content -->
     <LinearLayout
@@ -36,20 +36,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:text="@string/Sock_Name"
+            android:text="@string/chill_guy"
             android:textColor="#000000"
             android:textSize="40sp"
             android:textStyle="bold" />
 
         <!-- Sock Image -->
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            app:srcCompat="@drawable/img" />
 
         <!-- Sock Description -->
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="314dp"
+            android:layout_height="290dp"
+            android:gravity="center"
+            app:srcCompat="@drawable/chillg" />
+
         <TextView
             android:id="@+id/sockDescriptionTextView"
             android:layout_width="match_parent"
@@ -66,8 +68,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:text="@string/Retry"
-            android:backgroundTint="#FFFCF0"/>
+            android:backgroundTint="#A57778"
+            android:text="@string/Retry" />
 
     </LinearLayout>
 </FrameLayout>
