@@ -40,11 +40,14 @@ public class MainActivity : AppCompatActivity() {
 
         }
         button1.setOnClickListener {
-            val rnds = (0..2).random() // Generate a new random number on each click
+            val rnds = (0..5).random() // Generate a new random number on each click
 
             val intent = when (rnds) {
                 1 -> Intent(this, SleepyJoe::class.java)
                 2 -> Intent(this, SadSam::class.java) // Handle case when rnds == 2
+                3 -> Intent(this, ChillGuyChad::class.java) // Handle case when rnds == 3
+                4 -> Intent(this, OpenMindedOrkes::class.java) // Handle case when rnds == 3
+                5 -> Intent(this, WickedWarp::class.java) // Handle case when rnds == 3
                 else -> Intent(this, HappyHailey::class.java) // Default case for rnds == 0
             }
 
