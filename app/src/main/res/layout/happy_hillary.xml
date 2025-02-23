@@ -8,8 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/lightblueg"
-        android:backgroundTint="@color/SJG"/>
-
+        android:backgroundTint="@color/Happy_hil"/>
     <!-- Your Main Content -->
     <LinearLayout
         android:layout_width="match_parent"
@@ -36,20 +35,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:text="@string/Sock_Name"
+            android:text="@string/Happy_hillary"
             android:textColor="#000000"
             android:textSize="40sp"
             android:textStyle="bold" />
 
         <!-- Sock Image -->
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="229dp"
-            android:layout_height="311dp"
-            android:gravity="center"
-            app:srcCompat="@drawable/sj" />
 
         <!-- Sock Description -->
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="268dp"
+            android:layout_height="272dp"
+            android:gravity="center"
+            app:srcCompat="@drawable/hh" />
+
         <TextView
             android:id="@+id/sockDescriptionTextView"
             android:layout_width="match_parent"
@@ -67,7 +68,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:text="@string/Retry"
-            android:backgroundTint="#888B98"/>
+            android:backgroundTint="#D06868"/>
 
     </LinearLayout>
 </FrameLayout>
