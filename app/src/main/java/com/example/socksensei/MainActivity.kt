@@ -1,20 +1,14 @@
 package com.example.socksensei
 
+import android.content.Intent
 import android.os.Bundle
-import android.view.Window
-import com.google.android.material.bottomnavigation.BottomNavigationView
+import android.widget.Button
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.findNavController
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.setupActionBarWithNavController
-import androidx.navigation.ui.setupWithNavController
+import androidx.lifecycle.lifecycleScope
 import com.example.socksensei.databinding.ActivityMainBinding
-import android.widget.Button;
-import android.content.Intent;
-import android.widget.TextView;
-import androidx.lifecycle.lifecycleScope;
-import kotlinx.coroutines.delay;
-import kotlinx.coroutines.launch;
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 
 
 public class MainActivity : AppCompatActivity() {
@@ -44,9 +38,18 @@ public class MainActivity : AppCompatActivity() {
 
         }
         button1.setOnClickListener {
-            val intent = Intent(this, SockDisplay::class.java)
+            val rnds = (0..2).random() // Generate a new random number on each click
+
+            val intent = when (rnds) {
+                1 -> Intent(this, SleepyJoe::class.java)
+                2 -> Intent(this, SadSam::class.java) // Handle case when rnds == 2
+                else -> Intent(this, HappyHailey::class.java) // Default case for rnds == 0
+            }
+
             startActivity(intent)
         }
-        myTextView.typewriterEffect("What Has Been On Your Mind Recently?", 80L, this)
+
+
+        myTextView.typewriterEffect("What Has Been On Your Mind Recently?", 70L, this)
     }
 }

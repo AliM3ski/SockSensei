@@ -8,7 +8,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/lightblueg"
-        android:backgroundTint="@color/Happy_hil"/>
+        android:backgroundTint="@color/Sad_simon" />
+
     <!-- Your Main Content -->
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,8 +21,10 @@
         <!-- Congrats Announcement -->
         <TextView
             android:id="@+id/achievementTextView"
-            android:layout_width="400sp"
+            android:layout_width="349dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
             android:layout_marginBottom="20dp"
             android:gravity="center"
             android:text="@string/Achievement"
@@ -35,7 +38,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:text="@string/Happy_hillary"
+            android:text="@string/Sad_sam"
             android:textColor="#000000"
             android:textSize="40sp"
             android:textStyle="bold" />
@@ -46,10 +49,10 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="268dp"
-            android:layout_height="272dp"
+            android:layout_width="314dp"
+            android:layout_height="290dp"
             android:gravity="center"
-            app:srcCompat="@drawable/hh" />
+            app:srcCompat="@drawable/ss" />
 
         <TextView
             android:id="@+id/sockDescriptionTextView"
@@ -57,7 +60,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:padding="8dp"
-            android:text="@string/Sock_description"
+            android:text="@string/Sad_sam_description"
             android:textColor="#808080"
             android:textSize="16sp" />
 
@@ -67,8 +70,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:text="@string/Retry"
-            android:backgroundTint="#D06868"/>
+            android:backgroundTint="#616AD8"
+            android:text="@string/Retry" />
 
     </LinearLayout>
 </FrameLayout>
