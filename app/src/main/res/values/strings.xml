@@ -8,5 +8,10 @@
     <string name="Sock_Name">Sleepy Joe</string>
     <string name="Achievement">The sock that perfectly matches your mood right now is...</string>
     <string name="Retry">Feeling a different mood?</string>
-    <string name="Sock_description">These Sleepy Joe Socks feature a playful and stylized illustration of Joe Biden caught in a snooze. The design is meant to poke fun at the nickname "Sleepy Joe," often used in political satire. Made from soft and breathable materials</string>
+    <string name="Happy_hillary">Happy Hillary</string>
+    <string name="Happy_hillary_description">Meet Happy Hillary—a human ray of sunshine with a permanent grin and a laugh that’s basically a serotonin boost. She’s the type to skip through life like it’s a field of daisies, spreading joy like confetti and turning every “meh” into a “YAY!” Her vibe? Pure, unfiltered happiness—like a puppy chasing bubbles on a summer day. 🌞✨</string>
+    <string name="Sad_sam">Sad Sam</string>
+    <string name="Sad_sam_description">Meet Maple Mope, the human embodiment of a soggy, slightly sarcastic Sad Sam sock! This person’s mood is like a Canadian winter—long, a little dramatic, but oddly endearing.</string>
+
+    <string name="Sock_description">Sleepy Joe the type of non chalant pair of sock that goes with your mood, </string>
 </resources>
