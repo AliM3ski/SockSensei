@@ -58,7 +58,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:padding="8dp"
-            android:text="@string/Sock_description"
+            android:text="Chill Guy Chad Socks: For When Your Mood is ‘Too Cool to Care.’"
             android:textColor="#808080"
             android:textSize="16sp" />
 

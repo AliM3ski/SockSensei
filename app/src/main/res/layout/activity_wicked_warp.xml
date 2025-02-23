@@ -58,7 +58,9 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:padding="8dp"
-            android:text="@string/Sock_description"
+            android:text="Feeling like a coding wizard today? These socks are your terminal in textile form—fast, intuitive, and packed with hidden power. Whether you’re deploying confidence, debugging a bad day, or just SSH-ing into your zen mode, these socks have you covered.
+
+"
             android:textColor="#808080"
             android:textSize="16sp" />
 

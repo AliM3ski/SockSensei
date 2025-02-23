@@ -60,7 +60,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:padding="8dp"
-            android:text="@string/Sad_sam_description"
+            android:text="Sad Sam Socks: For When Your Mood is ‘Rainclouds and Comfort Food.’ 🧦☁️"
             android:textColor="#808080"
             android:textSize="16sp" />
 

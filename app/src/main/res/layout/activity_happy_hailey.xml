@@ -58,7 +58,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:padding="8dp"
-            android:text="@string/Sock_description"
+            android:text="Happy Hillary Socks: For When Your Mood is ‘Sunshine and Smiles.’ 🧦🌞"
             android:textColor="#808080"
             android:textSize="16sp" />
 
